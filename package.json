@@ -1,0 +1,11 @@
+{
+  "name": "regecent",
+  "version": "1.0.0",
+  "description": "Some accents for your Regular Expressions",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/*.js"
+  },
+  "author": "Victor Queiroz <victorcqueirozg@gmail.com>",
+  "license": "MIT"
+}
