@@ -13,7 +13,7 @@ var assert = require('assert'),
     regecent = require('regecent');
 
 const PRODUCT_NAME = regecent(/(maçã|apple)/gim),
-      RESULT_REGEX = /(m[aãàáâÂAÁÀ]ç[aãàáâÂAÁÀ]|[aãàáâÂAÁÀ]ppl[eẽèéêÊEÉÈ])/;
+      RESULT_REGEX = /(m[aãàáâÂAÁÀ]ç[aãàáâÂAÁÀ]|[aãàáâÂAÁÀ]ppl[eẽèéêÊEÉÈ])/gim;
 
 assert.deepEqual(PRODUCT_NAME, RESULT_REGEX);
 
